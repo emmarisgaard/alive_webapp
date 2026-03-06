@@ -1,0 +1,110 @@
+.chooseDayBar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: var(--darkGreen);
+    padding: 0 var(--lgSpacer);
+
+    button {
+        background-color: var(--darkGreen);
+        border: none;
+        color: var(--blue);
+        font-size: 1rem;
+        padding: 1rem 0.3rem;
+    }
+
+    button.active {
+        background-color: var(--blue);
+        color: var(--darkGreen);
+    }
+
+
+    button:hover {
+        background-color: var(--lightGreen);
+    }
+}
+
+
+
+.filters {
+    display: flex;
+    justify-content: space-between;
+    margin: var(--lgSpacer);
+}
+
+/* MAIN */
+
+
+/* PROGRAM CARDS */
+#programList {
+    margin: var(--lgSpacer);
+}
+
+/* Card */
+.programCard {
+    padding: var(--lgSpacer);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0);
+    margin-bottom: var(--lgSpacer);
+
+    * {
+        color: var(--darkGreen);
+        margin: 0;
+    }
+
+    img {
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+
+    }
+}
+
+.card_overskrift_like {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+.programCardInfo {
+    display: flex;
+    justify-content: space-between;
+
+    p {
+        font-size: .9rem
+    }
+}
+
+
+
+
+
+
+
+/* CSS PROGRAM UNDERSIDE */
+/* EMMA - MUSIK UNDERSIDE */
+
+.emma {
+    background-color: var(--musikPink);
+    padding: var(--lgSpacer);
+
+    * {
+        color: var(--darkGreen);
+    }
+
+    iframe {
+        height: 100px;
+
+    }
+
+    #mapSection {
+        img {
+            margin-top: var(--lgSpacer);
+            width: 100vw;
+            object-fit: cover;
+        }
+    }
+}

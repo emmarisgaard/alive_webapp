@@ -10,7 +10,8 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
 		integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
 		crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<script src="../assets/js/app.js" defer></script>
+	<script src="../assets/js/program.js" defer></script>
+	<!-- <script src="../assets/js/app.js" defer></script> -->
 </head>
 
 <body>
@@ -25,8 +26,88 @@
 	</section>
 
 	<!-- Hero end-->
+	<main>
+		<div class="chooseDayBar">
+			<!-- <button onclick="selectDay('Onsdag')">ONSDAG</button> -->
+			<button onclick="selectDay('Torsdag')">TORSDAG</button>
+			<button onclick="selectDay('Fredag')">FREDAG</button>
+			<button onclick="selectDay('Lørdag')">LØRDAG</button>
+			<!-- <button onclick="selectDay('Søndag')">SØNDAG</button> -->
+		</div>
+
+		<div class="filters">
+
+			<select id="categoryFilter" onchange="filterProgram()">
+				<!--onchange="filterProgram()" bruges til at lave filter - se app.js-->
+				<option value="alle">Vis alle</option>
+				<option value="Musik">🔴 Vis musik</option>
+				<option value="Kunst">🟡 Vis kunst</option>
+				<option value="Udflugt">🟢 Vis udflugter</option>
+				<option value="programLiked">❤️ Vis mit favorit program</option>
+			</select>
+
+			<form>
+				<select name="sorting" id="sorting">
+					<option value="">Kommende først</option>
+					<option value="">Kommende sidst</option>
+					<option value="a-å">A-Å</option>
+					<option value="å-a">Å-A</option>
+				</select>
+			</form>
+		</div>
 
 
+
+		<div id="programList">
+			<!-- <section class="programCard" style="background-color: var(--musikPink);">
+				<div class="card_overskrift_like">
+					<a href="../html/html_undersider/emma.html">
+						<h2>Faza</h2>
+					</a>
+					<a href="#"><i class="fa-regular fa-heart"></i></a>
+				</div>
+				<div class="programCardInfo">
+
+					<p><i class="fa-solid fa-clock"></i> Torsdag 21:45</p>
+					<p><i class="fa-solid fa-location-dot"></i> Haven
+					</p>
+					<p>Musik</p>
+				</div> <br>
+				<a href="./html_undersider/faza.html">
+					<img src="../assets/img/hero_faza.png" alt="Bryggen burger"></a>
+			</section> -->
+		</div>
+
+
+	</main>
+
+	<!-- NAV bar start -->
+	<nav class="mobile-nav">
+		<a href="../html/index.html">
+			<img src="../assets/img/lille_alive_logo_bluer.png" alt="">
+			<h6>Hjem</h6>
+		</a>
+		<a href="../html/kort.html"><i class="fa-regular fa-map"></i>
+			<h6>Kort</h6>
+		</a>
+		<a href="../html/program.html"><i class="fa-solid fa-list-ul"></i>
+			<h6>Program</h6>
+		</a>
+		<a href="../html/mad_drikke.html"><i class="fa-solid fa-burger"></i>
+			<h6>Boder</h6>
+		</a>
+		<a href="../html/mere.html"><i class="fa-solid fa-circle-info"></i>
+			<h6>Info</h6>
+		</a>
+
+		<!-- Ikoner links:
+		https://fontawesome.com/icons/map?f=classic&s=regular
+		https://fontawesome.com/icons/list-ul?f=classic&s=solid
+		https://fontawesome.com/icons/burger?f=classic&s=solid
+		https://fontawesome.com/icons/circle-info?f=classic&s=solid
+				
+		-->
+	</nav>
 
 </body>
 
