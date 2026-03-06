@@ -1,6 +1,5 @@
 body {
     background-color: var(--blue);
-
 }
 
 .container {
@@ -11,9 +10,44 @@ body {
 /* Intro tekst styling */
 .introText {
     color: var(--darkGreen);
-    margin-bottom: var(--xlSpacer);
+    margin-bottom: 2rem;
 
 }
+
+a {
+    color: var(--darkGreen);
+
+}
+
+/* Frivillig tekst styling */
+h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--darkGreen);
+}
+
+.frivilligText p {
+    color: var(--darkGreen);
+    line-height: 110%;
+}
+
+.frivilligText li {
+    color: var(--darkGreen);
+    line-height: 160%;
+
+}
+
+
+.haendbog {
+    justify-content: center;
+    display: flex;
+    color: var(--darkGreen);
+    align-items: center;
+}
+
+
+
+
 
 /* Accordion styling */
 .accordion {
@@ -24,9 +58,10 @@ body {
     border-radius: 2rem;
     font-size: large;
     text-align: left;
-    border: 1px solid black;
+    border: none;
     margin-bottom: 0;
     font-family: 'GT Haptik', sans-serif;
+
 }
 
 .accordion i {
@@ -42,40 +77,9 @@ body {
     margin-bottom: 2rem;
     display: none;
 
-}
 
-.buyTicket {
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 1rem;
-}
-
-.ticket {
-    border-bottom: 1px solid black;
-    margin: 0 -1rem;
-    padding: 0 1rem 1rem 1rem;
-}
-
-.ticket:last-child {
-    border-bottom: none;
-}
-
-
-/* Køb billet knap styling */
-
-.buyTicket {
-    background-color: var(--blue);
-    color: var(--darkGreen);
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
-    font-family: 'GT Haptik', sans-serif;
 
 }
-
-a {
-    text-decoration: none;
-}
-
 
 
 /* Styling af de åbnede accordions */
@@ -90,4 +94,10 @@ a {
 
 .accordion:not(.open) {
     margin-bottom: 1rem;
+}
+
+/* Giv lidt mere mellemrum mellem tekst og accordion */
+
+.first-accordion {
+    margin-top: 2rem;
 }

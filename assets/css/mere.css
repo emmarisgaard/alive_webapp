@@ -1,0 +1,142 @@
+body {
+    background-color: var(--blue);
+}
+
+.container {
+    margin: var(--lgSpacer);
+    margin-top: var(--xlSpacer);
+    padding-bottom: var(--xlSpacer);
+}
+
+/* Ydre accordions */
+
+/* Styling af accordion-knappen */
+.accordion {
+    background-color: var(--darkGreen);
+    color: var(--blue);
+    width: 100%;
+    padding: 1rem;
+    border-radius: 2rem;
+    font-size: large;
+    text-align: left;
+    border: none;
+    font-family: 'GT Haptik', sans-serif;
+}
+
+.accordion i {
+    float: right;
+}
+
+/* Når accordion er lukket: giv mellemrum til næste accordion */
+.accordion:not(.open) {
+    margin-bottom: 1rem;
+}
+
+/* Når accordion er åben: flade hjørner i bunden så panelet slutter tæt op.
+   Gælder kun accordion-filled (Kontakt), da de andre er runde hele vejen */
+.accordion-filled.open {
+    border-radius: 2rem 2rem 0 0;
+}
+
+/* Når accordion er åben og IKKE accordion-filled: forbliv rund hele vejen */
+.accordion.open:not(.accordion-filled) {
+    border-radius: 2rem;
+}
+
+/* Ydre paneler */
+
+/* Skjul alle paneler */
+.panel {
+    display: none;
+    margin-bottom: 2rem;
+    padding-top: 1rem;
+
+}
+
+/* Vis panel når det har open-klassen */
+.panel.open {
+    display: block;
+}
+
+/* Paneler uden underaccordions (fx Kontakt) får baggrundsfarve og afrundede hjørner */
+.panel:not(:has(.underAccordion)) {
+    background-color: var(--mediumGreen);
+    border-radius: 0 0 2rem 2rem;
+    padding: 1rem;
+
+
+}
+
+/* Indre accordions */
+
+.underAccordion {
+    background-color: var(--mediumGreen);
+    color: var(--darkGreen);
+    width: 100%;
+    padding: 1rem;
+    border-radius: 2rem;
+    font-size: large;
+    text-align: left;
+    border: none;
+    font-family: 'GT Haptik', sans-serif;
+}
+
+.underAccordion i {
+    float: right;
+}
+
+.underAccordion:not(.open) {
+    margin-bottom: 1rem;
+}
+
+.underAccordion.open {
+    border-radius: 2rem 2rem 0 0;
+}
+
+/* Indre paneler */
+
+.underPanel {
+    display: none;
+    background-color: var(--lightGreen);
+    border-radius: 0 0 2rem 2rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.underPanel.open {
+    display: block;
+}
+
+/* Styling af indholdet i paneler og indre paneler */
+h2,
+h3 {
+    font-size: 1rem;
+    color: var(--darkGreen);
+    font-weight: bold;
+}
+
+.panel p {
+
+    color: var(--darkGreen);
+}
+
+.musik {
+    color: var(--musikPink);
+}
+
+.kunst {
+    color: var(--kunstYellow);
+}
+
+.udflugter {
+    color: var(--udflugtGreen);
+}
+
+.panel .mail {
+    color: var(--blue);
+}
+
+.underPanel ul {
+    color: var(--darkGreen);
+    line-height: 160%;
+}
