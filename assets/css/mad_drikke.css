@@ -1,0 +1,96 @@
+.filters {
+    display: flex;
+    justify-content: space-between;
+    margin: var(--lgSpacer);
+}
+
+
+/* MAIN */
+
+main {
+    margin: var(--lgSpacer);
+}
+
+/* Card */
+.bod {
+    background-color: var(--darkGreen);
+    padding: var(--lgSpacer);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0);
+    margin-bottom: var(--lgSpacer);
+
+    * {
+        color: var(--blue);
+        margin: 0;
+    }
+
+    img {
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+
+    }
+}
+
+.bod_overskrift_like {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    h2,
+    p {
+        margin: 0;
+    }
+}
+
+
+
+
+
+
+/* MAD OG DRIKKE UNDERSIDER CSS */
+
+/* BRYGGEN CSS */
+.bryggen {
+    * {
+        color: var(--darkGreen)
+    }
+
+
+}
+
+/* MENU fold ud */
+summary {
+    font-weight: bold;
+    margin-top: var(--mdSpacer);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: var(--mdSpacer) 0;
+    border-bottom: 1px solid var(--darkGreen);
+}
+
+/* Liste styling */
+.menu {
+    li {
+        display: flex;
+    }
+
+    .price {
+        font-weight: bold;
+    }
+}
+
+#mapSection {
+    img {
+        margin-top: var(--lgSpacer);
+        width: 100vw;
+        object-fit: cover;
+    }
+}

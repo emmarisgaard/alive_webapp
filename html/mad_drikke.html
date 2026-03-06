@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
 		integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
 		crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<script src="../assets/js/app.js" defer></script>
+	<script src="../assets/js/mad_drikke.js" defer></script>
 </head>
 
 <body>
@@ -20,13 +20,69 @@
 
 		<div class="hero-content">
 			<h1 class="hero_text">mad & drikke</h1>
+			<h2 class="hero_text">15.00-02.00</h2>
 		</div>
 	</section>
 
 	<!-- Hero end-->
 
+	<!-- Filter linje -->
+	<div class="filters">
+
+		<form>
+			<label for="type"></label>
+			<select name="bodType" id="bodType">
+				<option value="all" selected>Alle boder</option>
+				<option value="Mad">Mad</option>
+				<option value="Drikke">Drikke</option>
+				<option value="like">❤️ Mine favoritter</option>
+			</select>
+		</form>
+
+		<form>
+			<label for="sorting"></label>
+			<select name="sorting" id="sorting">
+				<option value="a-å">A-Å</option>
+				<option value="å-a">Å-A</option>
+			</select>
+		</form>
+	</div>
+
+	<main>
+		<!-- Boder cards -->
+		<div class="boder">
+		</div>
+	</main>
 
 
+	<!-- NAV bar start -->
+	<nav class="mobile-nav">
+		<a href="../html/index.html">
+			<img src="../assets/img/lille_alive_logo_bluer.png" alt="">
+			<h6>Hjem</h6>
+		</a>
+		<a href="../html/kort.html"><i class="fa-regular fa-map"></i>
+			<h6>Kort</h6>
+		</a>
+		<a href="../html/program.html"><i class="fa-solid fa-list-ul"></i>
+			<h6>Program</h6>
+		</a>
+		<a href="../html/mad_drikke.html"><i class="fa-solid fa-burger"></i>
+			<h6>Boder</h6>
+		</a>
+		<a href="../html/mere.html"><i class="fa-solid fa-circle-info"></i>
+			<h6>Info</h6>
+		</a>
+
+		<!-- Ikoner links:
+		https://fontawesome.com/icons/map?f=classic&s=regular
+		https://fontawesome.com/icons/list-ul?f=classic&s=solid
+		https://fontawesome.com/icons/burger?f=classic&s=solid
+		https://fontawesome.com/icons/circle-info?f=classic&s=solid
+				
+		-->
+	</nav>
 </body>
+
 
 </html>
