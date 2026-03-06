@@ -5,6 +5,10 @@
     background-color: var(--darkGreen);
     padding: 0 var(--lgSpacer);
 
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
     button {
         background-color: var(--darkGreen);
         border: none;
@@ -18,10 +22,6 @@
         color: var(--darkGreen);
     }
 
-
-    button:hover {
-        background-color: var(--lightGreen);
-    }
 }
 
 
@@ -78,6 +78,26 @@
     }
 }
 
+/* FAVORIT BESKED - Demo lavet med chatGPT */
+.favorite-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--blue);
+    color: var(--darkGreen);
+    border: 2px solid var(--darkGreen);
+    padding: 16px 26px;
+    border-radius: 8px;
+    font-size: 16px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 1000;
+}
+
+.favorite-message.show {
+    opacity: 1;
+}
 
 
 
