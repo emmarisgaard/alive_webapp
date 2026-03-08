@@ -2,6 +2,27 @@
 
 const programCards = [
     {
+        name: "Ung Kunst Thy",
+        type: "Kunst",
+        color: "var(--kunstYellow)",
+        day: "Alle dage",
+        time: "",
+        where: "Pop-up",
+        img: "../assets/img/program_ungKunstThy.png",
+        link: "../html/html_undersider/emma.html"
+    },
+
+    {
+        name: "Gratis udflugt til Thisted Bryghus",
+        type: "Udflugt",
+        color: "var(--udflugtGreen)",
+        day: "Torsdag",
+        time: "11:00",
+        where: "Bryggerivej 10",
+        img: "../assets/img/program_bryghus.png",
+        link: "../html/html_undersider/emma.html"
+    },
+    {
         name: "Emma Sehested Høeg",
         type: "Musik",
         color: "var(--musikPink)",
@@ -11,36 +32,7 @@ const programCards = [
         img: "../assets/img/program_emma_sehested_hoeg.png",
         link: "../html/html_undersider/emma.html"
     },
-    {
-        name: "100% WET",
-        type: "Musik",
-        color: "var(--kunstYellow)",
-        day: "Lørdag",
-        time: "15:00",
-        where: "Haven",
-        img: "../assets/img/program_emma_sehested_hoeg.png",
-        link: "../html/html_undersider/emma.html"
-    },
-    {
-        name: "Def MaMa Def (SN)",
-        type: "Musik",
-        color: "var(--musikPink)",
-        day: "Fredag",
-        time: "16:30",
-        where: "Skovscenen",
-        img: "../assets/img/program_emma_sehested_hoeg.png",
-        link: "../html/html_undersider/emma.html"
-    },
-    {
-        name: "School of X",
-        type: "Musik",
-        color: "var(--musikPink)",
-        day: "Lørdag",
-        time: "16:30",
-        where: "Haven",
-        img: "../assets/img/program_emma_sehested_hoeg.png",
-        link: "../html/html_undersider/emma.html"
-    },
+
     {
         name: "Uden Ord",
         type: "Musik",
@@ -48,7 +40,7 @@ const programCards = [
         day: "Torsdag",
         time: "17:45",
         where: "Skovscenen",
-        img: "../assets/img/program_emma_sehested_hoeg.png",
+        img: "../assets/img/program_UdenOrd.jpg",
         link: "../html/html_undersider/emma.html"
     },
     {
@@ -61,13 +53,155 @@ const programCards = [
         img: "../assets/img/hero_faza.png"
     },
     {
+        name: "Tamara Mneney",
+        type: "Musik",
+        color: "var(--musikPink)",
+        day: "Torsdag",
+        time: "21:30",
+        where: "Haven",
+        img: "../assets/img/program_tamara.jpg",
+        link: "../html/html_undersider/emma.html"
+    },
+    {
+        name: "Elias Rønnenfelt",
+        type: "Musik",
+        color: "var(--musikPink)",
+        day: "Torsdag",
+        time: "23:30",
+        where: "Skovscenen",
+        img: "../assets/img/program_elias.jpg",
+        link: "../html/html_undersider/emma.html"
+    },
+
+    {
+        name: "Gratis udflugt til Thy Whisky",
+        type: "Udflugt",
+        color: "var(--udflugtGreen)",
+        day: "Fredag",
+        time: "11:00",
+        where: "Campingpladsen",
+        img: "../assets/img/program_thyWhiskey.png",
+        link: "../html/html_undersider/emma.html"
+    },
+    {
+        name: "Udflugt til Surfskole - 375 DKK",
+        type: "Udflugt",
+        color: "var(--udflugtGreen)",
+        day: "Fredag",
+        time: "12:30-16.00",
+        where: "Campingpladsen",
+        img: "../assets/img/program_surf.png",
+        link: "../html/html_undersider/emma.html"
+    },
+    {
+        name: "Def MaMa Def (SN)",
+        type: "Musik",
+        color: "var(--musikPink)",
+        day: "Fredag",
+        time: "16:30",
+        where: "Skovscenen",
+        img: "../assets/img/program_def.jpg",
+        link: "../html/html_undersider/emma.html"
+    },
+    {
         name: "DAYYANI",
         type: "Musik",
         color: "var(--musikPink)",
         day: "Fredag",
         time: "17.30",
         where: "Haven",
-        img: "../assets/img/program_emma_sehested_hoeg.png",
+        img: "../assets/img/program_dayyani.jpg",
+        link: "../html/html_undersider/emma.html"
+    },
+    {
+        name: "Bette",
+        type: "Musik",
+        color: "var(--musikPink)",
+        day: "Fredag",
+        time: "18:45",
+        where: "Haven",
+        img: "../assets/img/program_bette.jpg",
+        link: "../html/html_undersider/emma.html"
+    },
+    {
+        name: "Kind mod Kind",
+        type: "Musik",
+        color: "var(--musikPink)",
+        day: "Fredag",
+        time: "20:00",
+        where: "Skovscenen",
+        img: "../assets/img/program_kind.jpg",
+        link: "../html/html_undersider/emma.html"
+    },
+    {
+        name: "Mekdes",
+        type: "Musik",
+        color: "var(--musikPink)",
+        day: "Fredag",
+        time: "21:15",
+        where: "Haven",
+        img: "../assets/img/program_mekdes.jpg",
+        link: "../html/html_undersider/emma.html"
+    },
+    {
+        name: "Brimheim (DK/FO)",
+        type: "Musik",
+        color: "var(--musikPink)",
+        day: "Fredag",
+        time: "22:30",
+        where: "Skovscenen",
+        img: "../assets/img/program_brimheim.jpg",
+        link: "../html/html_undersider/emma.html"
+    },
+    {
+        name: "Von Quar",
+        type: "Musik",
+        color: "var(--musikPink)",
+        day: "Fredag",
+        time: "23:45",
+        where: "Haven",
+        img: "../assets/img/program_vonQuar.jpg",
+        link: "../html/html_undersider/emma.html"
+    },
+    {
+        name: "Werk: Rod",
+        type: "Kunst",
+        color: "var(--kunstYellow)",
+        day: "Fredag",
+        time: "01:00",
+        where: "Pop-up",
+        img: "../assets/img/program_werk.png",
+        link: "../html/html_undersider/emma.html"
+    },
+
+    {
+        name: "Gratis udflugt til Det Nordatlantiske Fyr",
+        type: "Udflugt",
+        color: "var(--udflugtGreen)",
+        day: "Lørdag",
+        time: "11:00",
+        where: "Campingpladsen",
+        img: "../assets/img/program_fyr.png",
+        link: "../html/html_undersider/emma.html"
+    },
+    {
+        name: "100% WET",
+        type: "Musik",
+        color: "var(--kunstYellow)",
+        day: "Lørdag",
+        time: "15:00",
+        where: "Haven",
+        img: "../assets/img/program_100wet.jpg",
+        link: "../html/html_undersider/emma.html"
+    },
+    {
+        name: "School of X",
+        type: "Musik",
+        color: "var(--musikPink)",
+        day: "Lørdag",
+        time: "16:30",
+        where: "Haven",
+        img: "../assets/img/program_schoolOfX.jpg",
         link: "../html/html_undersider/emma.html"
     },
     {
@@ -77,27 +211,7 @@ const programCards = [
         day: "Lørdag",
         time: "18:45",
         where: "Haven",
-        img: "../assets/img/program_emma_sehested_hoeg.png",
-        link: "../html/html_undersider/emma.html"
-    },
-    {
-        name: "Bette",
-        type: "Musik",
-        color: "var(--musikPink)",
-        day: "Søndag",
-        time: "",
-        where: "",
-        img: "../assets/img/program_emma_sehested_hoeg.png",
-        link: "../html/html_undersider/emma.html"
-    },
-    {
-        name: "Elias Rønnenfelt",
-        type: "Musik",
-        color: "var(--musikPink)",
-        day: "Fredag",
-        time: "",
-        where: "",
-        img: "../assets/img/program_emma_sehested_hoeg.png",
+        img: "../assets/img/program_enes.jpg",
         link: "../html/html_undersider/emma.html"
     },
     {
@@ -105,109 +219,9 @@ const programCards = [
         type: "Musik",
         color: "var(--musikPink)",
         day: "Lørdag",
-        time: "",
-        where: "",
-        img: "../assets/img/program_emma_sehested_hoeg.png",
-        link: "../html/html_undersider/emma.html"
-    },
-    {
-        name: "ORA",
-        type: "Musik",
-        color: "var(--musikPink)",
-        day: "Søndag",
-        time: "",
-        where: "",
-        img: "../assets/img/program_emma_sehested_hoeg.png",
-        link: "../html/html_undersider/emma.html"
-    },
-    {
-        name: "Karoline Funder",
-        type: "Musik",
-        color: "var(--musikPink)",
-        day: "Torsdag",
-        time: "",
-        where: "",
-        img: "../assets/img/program_emma_sehested_hoeg.png",
-        link: "../html/html_undersider/emma.html"
-    },
-    {
-        name: "Lea Kampmann (FO)",
-        type: "Musik",
-        color: "var(--musikPink)",
-        day: "Fredag",
-        time: "",
-        where: "",
-        img: "../assets/img/program_emma_sehested_hoeg.png",
-        link: "../html/html_undersider/emma.html"
-    },
-    {
-        name: "DJ Bjarne/Morten",
-        type: "Musik",
-        color: "var(--musikPink)",
-        day: "Lørdag",
-        time: "",
-        where: "",
-        img: "../assets/img/program_emma_sehested_hoeg.png",
-        link: "../html/html_undersider/emma.html"
-    },
-    {
-        name: "BASKE",
-        type: "Musik",
-        color: "var(--musikPink)",
-        day: "Søndag",
-        time: "",
-        where: "",
-        img: "../assets/img/program_emma_sehested_hoeg.png",
-        link: "../html/html_undersider/emma.html"
-    },
-    {
-        name: "UngKlang",
-        type: "Musik",
-        color: "var(--musikPink)",
-        day: "Torsdag",
-        time: "",
-        where: "",
-        img: "../assets/img/program_emma_sehested_hoeg.png",
-        link: "../html/html_undersider/emma.html"
-    },
-    {
-        name: "Nordlys",
-        type: "Musik",
-        color: "var(--musikPink)",
-        day: "Fredag",
-        time: "",
-        where: "",
-        img: "../assets/img/program_emma_sehested_hoeg.png",
-        link: "../html/html_undersider/emma.html"
-    },
-    {
-        name: "Fællessang",
-        type: "Musik",
-        color: "var(--musikPink)",
-        day: "Lørdag",
-        time: "",
-        where: "",
-        img: "../assets/img/program_emma_sehested_hoeg.png",
-        link: "../html/html_undersider/emma.html"
-    },
-    {
-        name: "Kind mod Kind",
-        type: "Musik",
-        color: "var(--musikPink)",
-        day: "Søndag",
-        time: "",
-        where: "",
-        img: "../assets/img/program_emma_sehested_hoeg.png",
-        link: "../html/html_undersider/emma.html"
-    },
-    {
-        name: "Mekdes",
-        type: "Musik",
-        color: "var(--musikPink)",
-        day: "Fredag",
-        time: "",
-        where: "",
-        img: "../assets/img/program_emma_sehested_hoeg.png",
+        time: "20:00",
+        where: "Haven",
+        img: "../assets/img/program_paydar.jpg",
         link: "../html/html_undersider/emma.html"
     },
     {
@@ -215,29 +229,9 @@ const programCards = [
         type: "Musik",
         color: "var(--musikPink)",
         day: "Lørdag",
-        time: "",
-        where: "",
-        img: "../assets/img/program_emma_sehested_hoeg.png",
-        link: "../html/html_undersider/emma.html"
-    },
-    {
-        name: "Tamera Mneney",
-        type: "Musik",
-        color: "var(--musikPink)",
-        day: "Torsdag",
-        time: "",
-        where: "",
-        img: "../assets/img/program_emma_sehested_hoeg.png",
-        link: "../html/html_undersider/emma.html"
-    },
-    {
-        name: "Brimheim (DK/FO)",
-        type: "Musik",
-        color: "var(--musikPink)",
-        day: "Fredag",
-        time: "",
-        where: "",
-        img: "../assets/img/program_emma_sehested_hoeg.png",
+        time: "21:15",
+        where: "Skovscenen",
+        img: "../assets/img/program_baest.jpg",
         link: "../html/html_undersider/emma.html"
     },
     {
@@ -245,29 +239,19 @@ const programCards = [
         type: "Musik",
         color: "var(--musikPink)",
         day: "Lørdag",
-        time: "",
-        where: "",
-        img: "../assets/img/program_emma_sehested_hoeg.png",
+        time: "22:30",
+        where: "Haven",
+        img: "../assets/img/program_tacobitch.jpg",
         link: "../html/html_undersider/emma.html"
     },
     {
         name: "Østen",
         type: "Musik",
         color: "var(--musikPink)",
-        day: "Søndag",
-        time: "",
-        where: "",
-        img: "../assets/img/program_emma_sehested_hoeg.png",
-        link: "../html/html_undersider/emma.html"
-    },
-    {
-        name: "Von Quar",
-        type: "Musik",
-        color: "var(--musikPink)",
-        day: "Fredag",
-        time: "",
-        where: "",
-        img: "../assets/img/program_emma_sehested_hoeg.png",
+        day: "Lørdag",
+        time: "00:00",
+        where: "Skovscenen",
+        img: "../assets/img/program_oesten.jpg",
         link: "../html/html_undersider/emma.html"
     }
 

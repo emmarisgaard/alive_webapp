@@ -27,7 +27,7 @@ const boder = [
         name: "Cocktailbar",
         type: "Drikke",
         sell: "Cocktails, mocktails og sodavand",
-        img: "assets/img/boder_cocktailbar.jpg",
+        img: "../assets/img/cocktailbar.jpg",
         link: "./html_undersider/bryggen.html"
     },
 
@@ -35,7 +35,7 @@ const boder = [
         name: "Den Grønne Fe",
         type: "Mad",
         sell: "Velsmagende og nærende for både øjne, krop og jord",
-        img: "assets/img/boder_denGronneFe.png",
+        img: "../assets/img/boder_denGronneFe.png",
         link: "./html_undersider/bryggen.html"
     },
 
@@ -43,7 +43,7 @@ const boder = [
         name: "Gadens Gastronomer",
         type: "Mad",
         sell: "Prisbelønnede burgere og sprøde fritter af kvalitetsråverer",
-        img: "assets/img/boder_gadensGastronomer.jpg",
+        img: "../assets/img/boder_gadensGastronomer.jpg",
         link: "./html_undersider/bryggen.html"
     },
 
@@ -51,7 +51,7 @@ const boder = [
         name: "Havebar",
         type: "Drikke",
         sell: "Lokal øl og cocktails",
-        img: "assets/img/boder_havebar.jpg",
+        img: "../assets/img/boder_havebar.jpg",
         link: "./html_undersider/bryggen.html"
     },
 
@@ -59,7 +59,7 @@ const boder = [
         name: "Mikuna",
         type: "Mad",
         sell: "Danmarks bedste burger - 100% vegansk og hjemmelavet",
-        img: "assets/img/mikuna.png",
+        img: "../assets/img/boder_mikuna.jpg",
         link: "./html_undersider/bryggen.html"
     },
 
@@ -67,7 +67,7 @@ const boder = [
         name: "Salke",
         type: "Mad",
         sell: "Friske råvarer, lokal fisk og meget mere",
-        img: "assets/img/salke.png",
+        img: "../assets/img/boder_salke.jpg",
         link: "./html_undersider/bryggen.html"
     },
 
@@ -75,15 +75,15 @@ const boder = [
         name: "Skovbar",
         type: "Drikke",
         sell: "Lokal øl og cocktails",
-        img: "assets/img/skovbar.png",
+        img: "../assets/img/boder_skovbar.jpg",
         link: "./html_undersider/bryggen.html"
     },
 
     {
-        name: "Street Bites Thai",
+        name: "StreetBites Thai",
         type: "Mad",
         sell: "Panang karry med ris og kylling, og grøn thaikarry med nudler",
-        img: "assets/img/street_bites_thai.png",
+        img: "../assets/img/boder_streetbitesThai.jpg",
         link: "./html_undersider/bryggen.html"
     },
 
@@ -91,7 +91,7 @@ const boder = [
         name: "The Taco Truck",
         type: "Mad",
         sell: "Autentiske mexicanske tacos",
-        img: "assets/img/the_taco_truck.png",
+        img: "../assets/img/boder_tacoTruck.jpg",
         link: "./html_undersider/bryggen.html"
     },
 
@@ -99,7 +99,7 @@ const boder = [
         name: "Thypisk Pizza",
         type: "Mad",
         sell: "Hvid eller rød pizza og sandwiches",
-        img: "assets/img/thypisk_pizza.png",
+        img: "../assets/img/boder_thypiskPizza.jpeg",
         link: "./html_undersider/bryggen.html"
     },
 
@@ -107,7 +107,7 @@ const boder = [
         name: "Vadebar",
         type: "Drikke",
         sell: "Lokal øl og cocktails",
-        img: "assets/img/vadebar.png",
+        img: "../assets/img/boder_vadebar.jpg",
         link: "./html_undersider/bryggen.html"
     },
 
@@ -115,7 +115,7 @@ const boder = [
         name: "Vin- og Whiskeyloungen",
         type: "Drikke",
         sell: "Et godt glas, live jazz og whisky-workshop",
-        img: "assets/img/vin_og_whiskeybar.png",
+        img: "../assets/img/boder_vin.jpg",
         link: "./html_undersider/bryggen.html"
     }
 
@@ -124,7 +124,7 @@ const boder = [
 
 
 
-// Filter funktion - filtrere mad og drikke
+// // Filter funktion - filtrere mad og drikke
 
 const mainBoder = document.querySelector(".boder"); //Fanger div med class boder
 
