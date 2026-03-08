@@ -11,99 +11,112 @@ const boder = [
         name: "Bryghusbar",
         type: "Drikke",
         sell: "Øko Humle, Limefjordsporteren, Hvedeøllen samt lokale nyheder",
-        img: "../assets/img/bryggen.png"
-
+        img: "../assets/img/boder_bryghusbar.jpg",
+        link: "./html_undersider/bryggen.html"
     },
 
     {
         name: "Bærbar",
         type: "Drikke",
         sell: "Håndlavede drinks med økologiske bærsirupper fra Thy Økobær",
-        img: "../assets/img/baerbar.png"
+        img: "../assets/img/boder_baerbar.jpg",
+        link: "./html_undersider/bryggen.html"
     },
 
     {
         name: "Cocktailbar",
         type: "Drikke",
         sell: "Cocktails, mocktails og sodavand",
-        img: "assets/img/cocktailbar.png"
+        img: "assets/img/boder_cocktailbar.jpg",
+        link: "./html_undersider/bryggen.html"
     },
 
     {
         name: "Den Grønne Fe",
         type: "Mad",
         sell: "Velsmagende og nærende for både øjne, krop og jord",
-        img: "assets/img/den_gronne_fe.png"
+        img: "assets/img/boder_denGronneFe.png",
+        link: "./html_undersider/bryggen.html"
     },
 
     {
         name: "Gadens Gastronomer",
         type: "Mad",
         sell: "Prisbelønnede burgere og sprøde fritter af kvalitetsråverer",
-        img: "assets/img/gadens_gastronomer.png"
+        img: "assets/img/boder_gadensGastronomer.jpg",
+        link: "./html_undersider/bryggen.html"
     },
 
     {
         name: "Havebar",
         type: "Drikke",
         sell: "Lokal øl og cocktails",
-        img: "assets/img/havebar.png"
+        img: "assets/img/boder_havebar.jpg",
+        link: "./html_undersider/bryggen.html"
     },
 
     {
         name: "Mikuna",
         type: "Mad",
         sell: "Danmarks bedste burger - 100% vegansk og hjemmelavet",
-        img: "assets/img/mikuna.png"
+        img: "assets/img/mikuna.png",
+        link: "./html_undersider/bryggen.html"
     },
 
     {
         name: "Salke",
         type: "Mad",
         sell: "Friske råvarer, lokal fisk og meget mere",
-        img: "assets/img/salke.png"
+        img: "assets/img/salke.png",
+        link: "./html_undersider/bryggen.html"
     },
 
     {
         name: "Skovbar",
         type: "Drikke",
         sell: "Lokal øl og cocktails",
-        img: "assets/img/skovbar.png"
+        img: "assets/img/skovbar.png",
+        link: "./html_undersider/bryggen.html"
     },
 
     {
         name: "Street Bites Thai",
         type: "Mad",
         sell: "Panang karry med ris og kylling, og grøn thaikarry med nudler",
-        img: "assets/img/street_bites_thai.png"
+        img: "assets/img/street_bites_thai.png",
+        link: "./html_undersider/bryggen.html"
     },
 
     {
         name: "The Taco Truck",
         type: "Mad",
         sell: "Autentiske mexicanske tacos",
-        img: "assets/img/the_taco_truck.png"
+        img: "assets/img/the_taco_truck.png",
+        link: "./html_undersider/bryggen.html"
     },
 
     {
         name: "Thypisk Pizza",
         type: "Mad",
         sell: "Hvid eller rød pizza og sandwiches",
-        img: "assets/img/thypisk_pizza.png"
+        img: "assets/img/thypisk_pizza.png",
+        link: "./html_undersider/bryggen.html"
     },
 
     {
         name: "Vadebar",
         type: "Drikke",
         sell: "Lokal øl og cocktails",
-        img: "assets/img/vadebar.png"
+        img: "assets/img/vadebar.png",
+        link: "./html_undersider/bryggen.html"
     },
 
     {
         name: "Vin- og Whiskeyloungen",
         type: "Drikke",
         sell: "Et godt glas, live jazz og whisky-workshop",
-        img: "assets/img/vin_og_whiskeybar.png"
+        img: "assets/img/vin_og_whiskeybar.png",
+        link: "./html_undersider/bryggen.html"
     }
 
 
