@@ -1,5 +1,13 @@
 const boder = [
     {
+        name: "Bærbar",
+        type: "Drikke",
+        sell: "Håndlavede drinks med økologiske bærsirupper fra Thy Økobær",
+        img: "../assets/img/boder_baerbar.jpg",
+        link: "./html_undersider/bryggen.html"
+    },
+
+    {
         name: "Bryggen",
         type: "Mad",
         sell: "Flæsekestegssandwich, dumplings, pommes og crispy chicken burger",
@@ -12,14 +20,6 @@ const boder = [
         type: "Drikke",
         sell: "Øko Humle, Limefjordsporteren, Hvedeøllen samt lokale nyheder",
         img: "../assets/img/boder_bryghusbar.jpg",
-        link: "./html_undersider/bryggen.html"
-    },
-
-    {
-        name: "Bærbar",
-        type: "Drikke",
-        sell: "Håndlavede drinks med økologiske bærsirupper fra Thy Økobær",
-        img: "../assets/img/boder_baerbar.jpg",
         link: "./html_undersider/bryggen.html"
     },
 
@@ -118,8 +118,6 @@ const boder = [
         img: "../assets/img/boder_vin.jpg",
         link: "./html_undersider/bryggen.html"
     }
-
-
 ];
 
 

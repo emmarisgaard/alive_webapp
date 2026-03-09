@@ -155,9 +155,6 @@ main {
 }
 
 .Galleri-header h2 {
-  /* font-size: 1.3rem;
-  font-weight: 600; */
-  color: var(--darkGreen);
   padding: 5px;
   margin-top: var(--lgSpacer);
 }
@@ -166,26 +163,16 @@ main {
   display: flex;
   align-items: center;
   gap: var(--smSpacer);
-  cursor: pointer;
-}
-
-.Galleri-year span {
-  font-size: 1.3rem;
-  font-weight: 600;
-  color: var(--darkGreen);
-  text-decoration: underline;
-  text-underline-offset: 3px;
 }
 
 .Galleri-year i {
   font-size: 0.85rem;
-  color: var(--darkGreen);
 }
 
 .Galleri-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 4px;
+  gap: var(--smSpacer)
 }
 
 .Galleri-grid img {
