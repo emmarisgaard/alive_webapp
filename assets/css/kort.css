@@ -26,7 +26,7 @@ body {
   background-color: var(--darkGreen);
   color: white;
   border: none;
-  border-radius: 12px;
+  border-radius: 2rem;
   padding: 16px var(--lgSpacer);
   display: flex;
   align-items: center;
