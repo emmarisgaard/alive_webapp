@@ -8,8 +8,8 @@ const programCards = [
         day: "Alle dage",
         time: "15-02",
         where: "Festivalpladsen",
-        img: "../assets/img/program_yuki.jpg",
-        link: "../html/html_undersider/emma.html"
+        img: "../assets/img/program_traad.jpg",
+        link: "../html/html_undersider/traad.html"
     },
     {
         name: "Yuki Ravn Liep",
@@ -30,7 +30,7 @@ const programCards = [
         time: "11:00",
         where: "Bryggerivej 10",
         img: "../assets/img/program_bryghus.png",
-        link: "../html/html_undersider/emma.html"
+        link: "../html/html_undersider/surfskole.html"
     },
 
     {
@@ -102,7 +102,7 @@ const programCards = [
         time: "12:30-16.00",
         where: "Campingpladsen",
         img: "../assets/img/program_surf.png",
-        link: "../html/html_undersider/emma.html"
+        link: "../html/html_undersider/surfskole.html"
     },
     {
         name: "Werk: Rod",

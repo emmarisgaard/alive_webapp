@@ -107,8 +107,9 @@
 /* CSS PROGRAM UNDERSIDE */
 /* EMMA - MUSIK UNDERSIDE */
 
-.emma {
-    background-color: var(--musikPink);
+.program_underside {
+
+
     padding: var(--lgSpacer);
 
     * {
@@ -126,5 +127,32 @@
             width: 100vw;
             object-fit: cover;
         }
+    }
+}
+
+#emma {
+
+    background-color: var(--musikPink);
+}
+
+#traad {
+    background-color: var(--kunstYellow);
+}
+
+#surfskole {
+    background-color: var(--udflugtGreen);
+
+    .buyTicket {
+        background-color: var(--darkGreen);
+        color: var(--udflugtGreen);
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+        font-family: 'GT Haptik', sans-serif;
+
+        i {
+            color: var(--udflugtGreen)
+        }
+
+        ;
     }
 }
