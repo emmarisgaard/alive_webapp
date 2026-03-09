@@ -1,11 +1,20 @@
 body {
-    background-color: var(--blue);
+  background-color: var(--blue);
+  margin: var(--lgSpacer);
+  padding-bottom: 80px;
 }
+
 /* Kort section */
 .kort img {
   padding: 0 var(--lgSpacer);
   margin-top: var(--mdSpacer);
+
 }
+
+.kort {
+  text-align: center;
+}
+
 /* Kort section end */
 
 
@@ -13,7 +22,7 @@ body {
 /* Accordion */
 .accordion {
   width: 100%;
-  background-color: var(--mediumGreen);
+  background-color: var(--darkGreen);
   color: white;
   border: none;
   border-radius: 12px;
@@ -29,6 +38,7 @@ body {
 
 .accordion.open {
   border-radius: 12px 12px 0 0;
+  margin-bottom: 0;
 }
 
 .accordion-title {
@@ -65,6 +75,8 @@ body {
 .panel.open {
   display: block;
 }
+
+
 
 
 /* Accordion åben slut*/
@@ -153,7 +165,7 @@ body {
   align-items: center;
   gap: var(--lgSpacer);
   padding: var(--mdSpacer) 0;
-  border-bottom: 1px solid rgba(255,255,255,0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .kunst-item:last-child {
@@ -188,7 +200,7 @@ body {
 }
 
 .kunst-info p {
-  color: rgba(255,255,255,0.75);
+  color: rgba(255, 255, 255, 0.75);
   font-size: 0.8rem;
   margin: 2px 0 0 0;
 }
@@ -210,4 +222,10 @@ body {
 
 .mad-dot {
   background-color: white;
+}
+
+/* Mellemrum mellem accordions */
+
+.accordion:not(.open) {
+  margin-bottom: 1rem;
 }
