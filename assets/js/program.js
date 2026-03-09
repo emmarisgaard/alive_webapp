@@ -187,7 +187,7 @@ const programCards = [
     {
         name: "100% WET",
         type: "Musik",
-        color: "var(--kunstYellow)",
+        color: "var(--musikPink)",
         day: "Lørdag",
         time: "15:00",
         where: "Haven",
