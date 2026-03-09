@@ -158,7 +158,7 @@ main {
   /* font-size: 1.3rem;
   font-weight: 600; */
   color: var(--darkGreen);
-  padding: 0;
+  padding: 5px;
   margin-top: var(--lgSpacer);
 }
 
