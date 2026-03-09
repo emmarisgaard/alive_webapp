@@ -8,6 +8,7 @@ body {
 .kort img {
   padding: 0 var(--lgSpacer);
   margin-top: var(--mdSpacer);
+  margin-bottom: var(--xlSpacer);
 
 }
 
