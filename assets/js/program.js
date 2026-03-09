@@ -2,13 +2,23 @@
 
 const programCards = [
     {
-        name: "Ung Kunst Thy",
+        name: "Traad for Traad",
         type: "Kunst",
         color: "var(--kunstYellow)",
         day: "Alle dage",
-        time: "",
+        time: "15-02",
+        where: "Festivalpladsen",
+        img: "../assets/img/program_yuki.jpg",
+        link: "../html/html_undersider/emma.html"
+    },
+    {
+        name: "Yuki Ravn Liep",
+        type: "Kunst",
+        color: "var(--kunstYellow)",
+        day: "Alle dage",
+        time: "15:15",
         where: "Pop-up",
-        img: "../assets/img/program_ungKunstThy.png",
+        img: "../assets/img/program_yuki.jpg",
         link: "../html/html_undersider/emma.html"
     },
 
@@ -22,6 +32,7 @@ const programCards = [
         img: "../assets/img/program_bryghus.png",
         link: "../html/html_undersider/emma.html"
     },
+
     {
         name: "Emma Sehested Høeg",
         type: "Musik",
@@ -91,6 +102,16 @@ const programCards = [
         time: "12:30-16.00",
         where: "Campingpladsen",
         img: "../assets/img/program_surf.png",
+        link: "../html/html_undersider/emma.html"
+    },
+    {
+        name: "Werk: Rod",
+        type: "Kunst",
+        color: "var(--kunstYellow)",
+        day: "Fredag",
+        time: "16:00",
+        where: "Pop-up",
+        img: "../assets/img/program_werk.png",
         link: "../html/html_undersider/emma.html"
     },
     {
@@ -164,17 +185,6 @@ const programCards = [
         link: "../html/html_undersider/emma.html"
     },
     {
-        name: "Werk: Rod",
-        type: "Kunst",
-        color: "var(--kunstYellow)",
-        day: "Fredag",
-        time: "01:00",
-        where: "Pop-up",
-        img: "../assets/img/program_werk.png",
-        link: "../html/html_undersider/emma.html"
-    },
-
-    {
         name: "Gratis udflugt til Det Nordatlantiske Fyr",
         type: "Udflugt",
         color: "var(--udflugtGreen)",
@@ -182,6 +192,16 @@ const programCards = [
         time: "11:00",
         where: "Campingpladsen",
         img: "../assets/img/program_fyr.png",
+        link: "../html/html_undersider/emma.html"
+    },
+    {
+        name: "Solvej Mia",
+        type: "Kunst",
+        color: "var(--kunstYellow)",
+        day: "Lørdag",
+        time: "12:00",
+        where: "Hanstholm",
+        img: "../assets/img/program_solvej.jpg",
         link: "../html/html_undersider/emma.html"
     },
     {
@@ -202,6 +222,16 @@ const programCards = [
         time: "16:30",
         where: "Haven",
         img: "../assets/img/program_schoolOfX.jpg",
+        link: "../html/html_undersider/emma.html"
+    },
+    {
+        name: "Ung Kunst Thy",
+        type: "Kunst",
+        color: "var(--kunstYellow)",
+        day: "Lørdag",
+        time: "17:15",
+        where: "Pop-up",
+        img: "../assets/img/program_ungKunstThy.png",
         link: "../html/html_undersider/emma.html"
     },
     {
