@@ -57,7 +57,8 @@ body {
 .panel {
   background-color: var(--mediumGreen);
   border-radius: 0 0 12px 12px;
-  padding: var(--lgSpacer);
+  padding-left: var(--lgSpacer);
+  padding-right: var(--lgSpacer);
   display: none;
   margin-bottom: 4px;
 }
